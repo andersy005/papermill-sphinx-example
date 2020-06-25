@@ -1,0 +1,23 @@
+name: papermill-sphinx
+channels:
+  - conda-forge
+dependencies:
+  - cartopy
+  - cftime
+  - dask
+  - dataclasses
+  - ipykernel
+  - jupyterlab
+  - matplotlib
+  - nbsphinx
+  - netcdf4
+  - papermill
+  - pip
+  - scikit-learn
+  - scipy
+  - seaborn
+  - xarray
+  - pip:
+      - sphinx-book-theme
+      - argopy
+      - git+https://github.com/andersy005/prepapermill.git
