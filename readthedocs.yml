@@ -1,5 +1,2 @@
 conda:
   file: environment.yaml
-python:
-  version: 3
-  setup_py_install: true
