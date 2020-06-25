@@ -10,6 +10,8 @@ notebooks/
 0 directories, 1 file
 ```
 
+- Execute parameterized notebooks
+
 ```bash
 > preapermill --parameter-file prepapermill.yaml notebooks/animated-polar-plot.ipynb
 Executing: 100%|████████████████████████████| 14/14 [00:44<00:00,  3.19s/cell]
@@ -25,4 +27,16 @@ notebooks/
     └── animated-polar-plot_start_date_2016-01-01_end_date_2020-01-03.ipynb
 
 1 directory, 3 files
+```
+
+- Generate Sphinx documentation
+
+```bash
+make html
+```
+
+- Preview generated HTML webpage
+
+```bash
+open _build/html/index.html
 ```
